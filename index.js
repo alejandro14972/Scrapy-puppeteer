@@ -223,7 +223,7 @@ const puppeteer = require("puppeteer");
       conjuntos.push(conjunto);
     }
   }
-  console.log(conjuntos);
+  console.log(conjuntos); //
 
   const datosAlmacenados = JSON.stringify(conjuntos);
   /* guardar datos en .json */
